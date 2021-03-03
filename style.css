@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color:  rgb(12, 50, 90)  ;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.container{
+    width: 1024px;
+    margin: auto;
+}
+nav{
+    height: 90px;
+}
+.logo{
+    vertical-align: middle;
+}
+nav ul{
+    display: inline-block;
+    line-height: 90px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.login{
+    float: right;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+.btn{
+    padding: 8px 20px;
+    font-size: 10px;
+}
+
+.btn.one{
+    background-color:  rgb(12, 50, 90)  ;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.btn.two{
+    background-color:  rgb(124 , 187, 2)  ;
+    border-radius: 5px;
+}
+.hero{
+    height: 700px;
+    background-color: rgb(12, 50, 90);
+    position: relative;
+}
+.hero>img{
+    width: 60%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
