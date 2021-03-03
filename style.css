@@ -75,6 +75,7 @@ h1+a
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    width: 50%;
 }
 
 h1{
@@ -94,9 +95,77 @@ h1{
     background-color: rgb(211, 211, 211);
     text-align: center;
     padding: 30px;
+    margin-bottom: 30px;
 }
  .middlebar p {
      margin-top: 10px;
      color: rgb(130, 130, 130);
  }
 
+ .column{
+     float: left;
+     width: 30%;
+ }
+
+ .due{
+     margin-left: 5%;
+     margin-right: 5%;
+ }
+
+ .column > .row{
+     height: 200px;
+     position: relative;
+ }
+
+ .row img{
+     height: 80%;
+     position: absolute;
+     left: 50%;
+     transform: translateX(-50%);
+ }
+
+ .column h3{
+     text-align: center;
+     color: rgb(145, 197, 45);
+     font-size: 20px;
+     margin-bottom: 20px;
+ }
+
+ .column hr{
+     width: 20%;
+     margin: auto;
+     margin-bottom: 20px;
+ }
+
+ .column p{
+    color: rgb(130, 130, 130);
+    text-align: center;
+ }
+
+ hr{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+
+ .colonna{
+     float: left;
+     width: 40%;
+     position: relative;
+ }
+
+ .colonna p{
+    color: rgb(130, 130, 130);
+ }
+
+ .montain{
+     margin-right: 20%;
+ }
+
+ .colonna >  h3{
+     font-size: 30px;
+ }
+.colonna > p{
+    padding: 20px 0 ;
+}
