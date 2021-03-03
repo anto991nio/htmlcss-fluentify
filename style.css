@@ -205,7 +205,7 @@ select{
 
 
 .help{
-    position: fixed;
     bottom: 0;
-    right: 0;
+    right: 25%;
+    position: fixed;
 }
