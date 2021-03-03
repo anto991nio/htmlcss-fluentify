@@ -169,3 +169,43 @@ h1{
 .colonna > p{
     padding: 20px 0 ;
 }
+
+footer{
+    background-color: rgb(211, 211, 211);
+    height: 90px;
+    position: relative;
+    padding: 60px;
+}
+
+}
+label{
+    color: rgb(130, 130, 130);
+}
+select{
+    background-color: transparent;
+    color: rgb(130, 130, 130);
+    border-color: transparent;
+    border-bottom: 1px solid black;
+}
+.genere{
+    float: right;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+.genere > a{
+    text-decoration: none;
+    color: white;
+}
+
+.piede{
+    position: relative;
+}
+
+
+.help{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
