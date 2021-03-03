@@ -37,7 +37,9 @@ nav ul li{
     float: right;
 }
 
-nav a{
+nav a,
+h1+a
+{
     text-decoration: none;
     color: white;
     font-size: 10px;
@@ -62,9 +64,28 @@ nav a{
     background-color: rgb(12, 50, 90);
     position: relative;
 }
-.hero>img{
+.hero img{
     width: 60%;
+    height: 70%;
     position: absolute;
     bottom: 0;
     right: 0;
+}
+.titlehero{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+h1{
+    color: white;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.btn.hero{
+    background-color:  rgb(124 , 187, 2)  ;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 15px 40px;
 }
